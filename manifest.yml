@@ -1,0 +1,9 @@
+---
+applications:
+  - name: cct-web
+    path: build/
+    random-route: true
+    memory: 128M
+    buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+    routes:
+    - route: cognizant-contact-tracer.mybluemix.net

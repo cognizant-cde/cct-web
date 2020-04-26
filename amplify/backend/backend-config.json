@@ -1,0 +1,9 @@
+{
+	"auth": {
+		"covid19web": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	}
+}
